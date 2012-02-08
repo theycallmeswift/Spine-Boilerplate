@@ -1,0 +1,6 @@
+<div class="tabs">
+  <ul>
+    <li data-name="foo">Foo</li>
+    <li data-name="bar">Bar</li>
+  </ul>
+</div>

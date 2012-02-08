@@ -1,10 +1,16 @@
 require('lib/setup')
 
 Spine = require('spine')
+Foobar = require('controllers/foobar')
 
-class BrandChallengesApp extends Spine.Controller
+class App extends Spine.Controller
   constructor: ->
     super
+    @Foobar = new Foobar
 
-module.exports = BrandChallengesApp
+    @append @Foobar.active()
+
+    Spine.Route.setup()
+
+module.exports = App
 

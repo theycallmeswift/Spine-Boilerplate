@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>App</title>
+  <!-- Start Crowdtap Styles !-->
+  <link href="http://crowdtap.com/assets/members-1.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://crowdtap.com/assets/members-2.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://crowdtap.com/assets/members-3.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://crowdtap.com/assets/vendor.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://crowdtap.com/assets/wip_production.css" media="screen" rel="stylesheet" type="text/css" />
+  <!-- End Crowdtap Styles !-->
+
+  <link rel="stylesheet" href="/application.css" type="text/css" charset="utf-8">
+  <script src="/application.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript" charset="utf-8">
+    var jQuery  = require("jqueryify");
+    var exports = this;
+    jQuery(function(){
+      var BrandChallengesApp = require("index");
+      exports.app = new BrandChallenegesApp({el: $("body")});
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>

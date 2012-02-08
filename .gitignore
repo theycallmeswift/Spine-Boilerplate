@@ -1,0 +1,9 @@
+*.DS_Store
+*.sw[a-z]
+node_modules/
+public/application.js
+public/application.css
+npm-debug.log
+*.tmp
+*~
+*.orig

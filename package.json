@@ -1,0 +1,31 @@
+{
+  "author": "Mike Swift <mikes@crowdtap.com>",
+  "name": "crowdtap.brand-challenges",
+  "description": "Brand challeneges spine application.",
+  "version": "0.0.0",
+  "homepage": "http://www.crowdtap.com/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crowdtap/crowdtap.brand-challenges.git"
+  },
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "dependencies": {
+    "serveup": "~0.0.2",
+    "hem": "~0.1.6",
+    "es5-shimify": "~0.0.1",
+    "json2ify": "~0.0.1",
+    "jqueryify": "~0.0.1",
+    "spine": "~1.0.5"
+  },
+  "devDependencies": {
+    "cucumber": "0.2.7",
+    "jasmine-node": "~1.0.13",
+    "zombie": "~0.12.14"
+  },
+  "scripts" : {
+    "spec": "./node_modules/.bin/jasmine-node --noColor --coffee spec",
+    "cucumber": "./node_modules/.bin/cucumber.js"
+  }
+}
